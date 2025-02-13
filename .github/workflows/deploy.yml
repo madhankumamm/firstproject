@@ -39,4 +39,4 @@ jobs:
 
     # - name: Set public-read ACL
     #   run: |
-    #     aws s3 cp s3://my-static-website-demo1/index.html s3://my-static-website-demo1/index.html --acl public-read
+    #     aws s3 cp s3://developenv/index.html s3://developenv/index.html --acl public-read
