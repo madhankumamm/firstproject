@@ -37,6 +37,6 @@ jobs:
       run: |
         aws s3 sync . s3://developenv --exclude ".git/*" --delete
 
-    # - name: Set public-read ACL
-    #   run: |
-    #     aws s3 cp s3://developenv/index.html s3://developenv/index.html --acl public-read
+    - name: Set public-read ACL
+      run: |
+        aws s3 cp s3://developenv/index.html s3://developenv/index.html --acl public-read
